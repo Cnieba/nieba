@@ -1,12 +1,6 @@
-h1{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 2rem;
-}
-
 
 footer{
-    background-color: rgb(119, 133, 211, 0.979);
+    background-color: rgb(165, 131, 185);
     color: black;
     height: 100px;
     width: 100%;
@@ -23,6 +17,7 @@ footer{
 
 img{
     border: solid 2px;
+    color: transparent;
     padding: 30px;
     border-radius: 50px;
     width: 300px;
@@ -37,7 +32,17 @@ nav{
     background-color: rgb(165, 131, 185);
     display: flex;
     justify-content: center;
-    border:solid 5px;
+    font-size: 1em;
+    color: black;
+    height: 100px;
+    width: 100%;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    align-self: flex-end;
+    margin: auto;
+    border:solid 2px;
     font-size: 1em;
 }
 
@@ -52,6 +57,8 @@ nav{
     font-family: Georgia, serif;
     border:solid 3px;
     font-size: 1em;
+
+    
 }
 
 p{
@@ -64,33 +71,24 @@ p{
 }
 
 .container{
+    background-color: rgba(195, 195, 206, 0.795);
+    height: 420px;
+    width: 700px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: default;
+    position: relative;
+    margin-top: 15px;
+    margin-block-end: 15px;
+    margin-left: 280px
     
-    background-color: rgb(179, 124, 124);
-    border: 2px solid rgb(8, 8, 1);
-    break-inside: avoid-column;
-    padding: 10px;
-    margin-right: 5%;
-    margin-left: 35%;
-    text-align: left;
-    border-radius: 50px ;
-    font-size: 1em;
-    flex: content;
-}
 
-.competencia.png{
-    margin-left: 10%;
-    margin-left: 10%;
-    max-width: 100%;
 }
-
 
 .container{
     display: flex;
     flex-wrap: wrap;
 }
-
-.boton{
-    font-size: 1em;
-}
-
-
