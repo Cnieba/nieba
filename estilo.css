@@ -62,12 +62,12 @@ nav{
 }
 
 p{
-    font-family: serif;
     margin-right: 45px;
     font-size: larger;
     font-style: bold;
     margin: 20px;
     font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container{
