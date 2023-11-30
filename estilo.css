@@ -1,5 +1,5 @@
 footer{
-    background-color: rgb(165, 131, 185);
+    background-color: rgba(195, 195, 206, 0.795);
     color: black;
     height: 100px;
     width: 100%;
@@ -43,7 +43,7 @@ nav{
     font-size: 15px;
     align-self: flex-end;
     margin: auto;
-    border:solid 2px;
+
     font-size: 1em;
 }
 
@@ -361,6 +361,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid lightgrey;
+    background: rgb(165, 131, 185);
 }
 
 footer .total_que span{
@@ -503,83 +504,68 @@ body {
     font-size: 16px;
 }
 
-/* Media query for screens smaller than 600px */
+
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px;
     }
-    /* Add any other styles you want to change for smaller screens */
+    
 }
 
-/* Media query for screens smaller than 400px */
+
 @media screen and (max-width: 400px) {
     body {
         font-size: 12px;
     }
-    /* Add any other styles you want to change for even smaller screens */
-}
-
-/* Add more media queries as needed for different screen sizes */
-
-/* You can also use media queries to adjust the layout, for example: */
-@media screen and (max-width: 768px) {
-    /* Add styles for screens smaller than 768px */
-    /* You might want to change the layout or hide certain elements */
-    .info_box {
-        /* Add styles for smaller screens */
-    }
-    .quiz_box {
-        /* Add styles for smaller screens */
-    }
-    .result_box {
-        /* Add styles for smaller screens */
-    }
-
+   
 }
 
 
+@media screen  and  (max-width: 768px) {
 
+    .info_box
+    .quiz_box
+    .result_box 
+    
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .item {
-    width: 48%; /* o utiliza flex: 0 0 48%; */
+    width: 48%; 
 }
 
 
-/* Your existing styles */
 
-/* Mobile styles */
 @media only screen and (max-width: 600px) {
     img {
-      width: 100%; /* Make the image take the full width of the viewport */
-      margin: 0; /* Remove margin */
-      float: none; /* Remove float */
+      width: 100%; 
+      margin: 0; 
+      float: none; 
     }
   
     nav,
     footer {
-      height: auto; /* Allow the height to adjust based on content */
+      height: auto; 
     }
   
     .container {
-      width: 100%; /* Make the container take the full width of the viewport */
-      margin-left: 0; /* Remove left margin */
+      width: 100%; 
+      margin-left: 0; 
     }
   
-    /* Add more specific styles for smaller screens if needed */
+   
   }
   
-  /* Tablet styles */
+
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Add specific styles for tablets if needed */
+    
   }
   
-  /* Desktop styles */
+
   @media only screen and (min-width: 1025px) {
-    /* Add specific styles for desktop if needed */
+    
   }
 
   
@@ -595,7 +581,7 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #333;
+    background:  rgb(165, 131, 185);
     padding: 15px 0;
 }
 
@@ -618,10 +604,10 @@ footer {
     margin: 20px 0;
     padding: 10px;
     background-color: #333;
-    color: white;
+    color: black;
 }
 
-/* Media Queries for Responsive Design */
+
 
 @media only screen and (max-width: 768px) {
     nav {
@@ -636,6 +622,4 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .container {
-        width: 90%;
-    }
-}
+        width: 90%;} }}
