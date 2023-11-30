@@ -3,53 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     <title>CV Camila Nieba</title>
     <link rel="stylesheet" href="estilo.css">
 
     <style>
-        body{
-            background-color:  rgb(248, 250, 248);
+        body {
+            background-color: rgb(248, 250, 248);
+            margin: 0; /* Remove default margin */
+            font-family: sans-serif; /* Set a default font family */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #555;
+            padding: 10px;
+        }
+
+        .boton {
+            flex: 1; /* Equal width for each button */
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        p {
+            font-family: serif;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Adjust styles for screens smaller than 600px */
+            nav {
+                flex-direction: column; /* Stack navigation links vertically */
+            }
+
+            .boton {
+                margin-bottom: 5px; /* Add some spacing between navigation links */
+            }
         }
     </style>
 </head>
 <body>
-    <body>
-       <header>
-        <nav>
-            <div class="boton">
-                <a href="index.html">Datos Personales</a>
-            </div>
-            <div class="boton">
-                <a href="educacion.html">Educación</a>
-            </div>
-            <div class="boton">
-                <a href="experiencia.html">Experiencia</a>
-            </div>
-            <div class="boton">
-                <a href="competencias.html">Competencias</a>
-            </div>
-            <div class="boton">
-                <a href="cuestionario.html">Cuestionario</a>
+    <header>
+        <h1>Curriculum Vitae Camila Nieba</h1>
+        <img src="foto_personal.jpg" alt="foto_personal">
+    </header>
 
-            </div>
+    <nav>
+        <div class="boton">
+            <a href="index.html">Datos Personales</a>
+        </div>
+        <div class="boton">
+            <a href="educacion.html">Educación</a>
+        </div>
+        <div class="boton">
+            <a href="experiencia.html">Experiencia</a>
+        </div>
+        <div class="boton">
+            <a href="competencias.html">Competencias</a>
+        </div>
+        <div class="boton">
+            <a href="cuestionario.html">Cuestionario</a>
+        </div>
     </nav>
-    <h1>Curriculum Vitae Camila Nieba</h1>
-    <img src="foto_personal.jpg" alt="foto_personal">
 
-
-<p style="font-family: serif;"> Nombre: Camila
-    Apellido: Nieba
-    Fecha de nacimiento: 30/07/2002
-    Celular: 1122574335
-    Correo: camilanieba@gmail.com
-    Localidad: CABA(Comuna 8),Buenos Aires</p>
+    <p>
+        Nombre: Camila<br>
+        Apellido: Nieba<br>
+        Fecha de nacimiento: 30/07/2002<br>
+        Celular: 1122574335<br>
+        Correo: camilanieba@gmail.com<br>
+        Localidad: CABA (Comuna 8), Buenos Aires
+    </p>
 
     <footer>
-        <p style="text-align:center;margin: auto;display: flex;justify-content: space-evenly; width: 100%;   font-style: bold;">UADE Derechos Reservados 2023</p>
-     </footer>
-  
+        <p style="text-align: center; font-weight: bold;">UADE Derechos Reservados 2023</p>
+    </footer>
 </body>
 </html>

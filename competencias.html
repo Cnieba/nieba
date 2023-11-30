@@ -55,3 +55,118 @@
 </footer>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CV Camila Nieba</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+        body {
+            background-color: rgb(248, 250, 248);
+            margin: 0; /* Remove default margin */
+            font-family: Arial, sans-serif; /* Set a generic font family */
+        }
+
+        header {
+            background-color: #333; /* Add a background color to the header */
+            padding: 10px; /* Add padding to the header */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .boton {
+            margin: 10px; /* Add margin to each navigation button */
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        footer {
+            background-color: #333; /* Add a background color to the footer */
+            color: white; /* Set text color to white */
+            padding: 10px; /* Add padding to the footer */
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Add a media query for smaller screens */
+            nav {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .boton {
+                margin: 5px;
+            }
+
+            #subtitulo {
+                text-align: center; /* Center the heading on smaller screens */
+            }
+
+            ul {
+                padding-left: 20px; /* Add padding to the list items */
+            }
+
+            footer {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="boton">
+                <a href="index.html">Datos Personales</a>
+            </div>
+            <div class="boton">
+                <a href="educacion.html">Educación</a>
+            </div>
+            <div class="boton">
+                <a href="experiencia.html">Experiencia</a>
+            </div>
+            <div class="boton">
+                <a href="competencias.html">Competencias</a>
+            </div>
+            <div class="boton">
+                <a href="cuestionario.html">Cuestionario</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <u><h2 id="subtitulo" style="text-align: left;">Competencias</h2></u>
+        <ul style="list-style-type: disc;">
+            <li><p>Trabajo en equipo</p></li>
+            <li><p>Agilidad de aprendizaje</p></li>
+            <li><p>Resolución de conflictos</p></li>
+            <li><p>Capacidad de organización</p></li>
+            <li><p>Pensamiento creativo</p></li>
+            <li><p>Gestión del tiempo </p></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>UADE Derechos Reservados 2023</p>
+    </footer>
+</body>
+
+</html>

@@ -225,3 +225,14 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Preguntas</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
+
+
+
+
+
+/* Add this to your existing CSS or create a new stylesheet */
+
+/* Default styles for larger screens */
+
+
+

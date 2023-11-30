@@ -3,56 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     <title>CV Camila Nieba</title>
     <link rel="stylesheet" href="estilo.css">
-    
     <style>
-        body{
-            background-color: rgb(248, 250, 248)
+        body {
+            background-color: rgb(248, 250, 248);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .boton {
+            margin: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
         }
     </style>
 </head>
 <body>
-    <body>
-       <header>
-        <nav>
-            <div class="boton">
-                <a href="index.html">Datos Personales</a>
-            </div>
-            <div class="boton">
-                <a href="educacion.html">Educación</a>
-            </div>
-            <div class="boton">
-                <a href="experiencia.html">Experiencia</a>
-            </div>
-            <div class="boton">
-                <a href="competencias.html">Competencias</a>
-            </div>
-            <div class="boton">
-                <a href="cuestionario.html">Cuestionario</a>
 
-            </div>
-         </nav>
+<header>
+    <nav>
+        <div class="boton">
+            <a href="index.html">Datos Personales</a>
+        </div>
+        <div class="boton">
+            <a href="educacion.html">Educación</a>
+        </div>
+        <div class="boton">
+            <a href="experiencia.html">Experiencia</a>
+        </div>
+        <div class="boton">
+            <a href="competencias.html">Competencias</a>
+        </div>
+        <div class="boton">
+            <a href="cuestionario.html">Cuestionario</a>
+        </div>
+    </nav>
+</header>
 
-    
-   <div class="container">
+<div class="container">
     <u><h2>Experiencia</h2></u>
     <h3>Venta de cosméticos</h3>
-   <H4>Empresa <a href="https://www.violettacosmeticos.com/" target="_blank">Violetta</a>(Julio 2021 - Agosto 2022)</H4>
-   
-<ul style="list-style-type: disc;">
-    <li><p>Carga y seguimiento de pedidos por plataforma</p></li>
-    <li><p>Logística para entrega de productos</p></li>
-    <li><p>Control de cobranzas por medios electrónicos</p></li>
-</ul>
-   
- </div>
+    <h4>Empresa <a href="https://www.violettacosmeticos.com/" target="_blank">Violetta</a>(Julio 2021 - Agosto 2022)</h4>
 
- <footer>
-    <p style="text-align:center;margin: auto;display: flex;justify-content: space-evenly; width: 100%;   font-style: bold;">UADE Derechos Reservados 2023</p>
+    <ul>
+        <li><p>Carga y seguimiento de pedidos por plataforma</p></li>
+        <li><p>Logística para entrega de productos</p></li>
+        <li><p>Control de cobranzas por medios electrónicos</p></li>
+    </ul>
+</div>
+
+<footer>
+    <p>UADE Derechos Reservados 2023</p>
 </footer>
 
 </body>

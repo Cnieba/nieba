@@ -25,6 +25,8 @@ img{
     margin-right: 50px;
     max-width: 100%;
     margin: 20px;
+        max-width: 100%;
+        height: auto;
 }
 
 nav{
@@ -489,4 +491,151 @@ footer button.show{
 
 
 
+}
+
+
+
+
+
+
+
+body {
+    font-size: 16px;
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    /* Add any other styles you want to change for smaller screens */
+}
+
+/* Media query for screens smaller than 400px */
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+    /* Add any other styles you want to change for even smaller screens */
+}
+
+/* Add more media queries as needed for different screen sizes */
+
+/* You can also use media queries to adjust the layout, for example: */
+@media screen and (max-width: 768px) {
+    /* Add styles for screens smaller than 768px */
+    /* You might want to change the layout or hide certain elements */
+    .info_box {
+        /* Add styles for smaller screens */
+    }
+    .quiz_box {
+        /* Add styles for smaller screens */
+    }
+    .result_box {
+        /* Add styles for smaller screens */
+    }
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item {
+    width: 48%; /* o utiliza flex: 0 0 48%; */
+}
+
+
+/* Your existing styles */
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    img {
+      width: 100%; /* Make the image take the full width of the viewport */
+      margin: 0; /* Remove margin */
+      float: none; /* Remove float */
+    }
+  
+    nav,
+    footer {
+      height: auto; /* Allow the height to adjust based on content */
+    }
+  
+    .container {
+      width: 100%; /* Make the container take the full width of the viewport */
+      margin-left: 0; /* Remove left margin */
+    }
+  
+    /* Add more specific styles for smaller screens if needed */
+  }
+  
+  /* Tablet styles */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Add specific styles for tablets if needed */
+  }
+  
+  /* Desktop styles */
+  @media only screen and (min-width: 1025px) {
+    /* Add specific styles for desktop if needed */
+  }
+
+  
+
+
+
+  body {
+    background-color: rgb(248, 250, 248);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 15px 0;
+}
+
+.boton a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#subtitulo {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
 }
